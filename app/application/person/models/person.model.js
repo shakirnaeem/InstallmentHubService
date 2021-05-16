@@ -10,7 +10,8 @@ const personSchema = mongoose.Schema({
     detail: [{
         amount: Number,
         title: String,
-        month: String
+        month: String,
+        isProcessed: Boolean
     }],
     isDeleted: Boolean,
 }, {

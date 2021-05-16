@@ -7,4 +7,5 @@ module.exports = (app) => {
     // Retrieve all 
     app.get('/', handler.findAll);
     app.post('/', handler.create);
+    app.get('/process-amount', handler.processAmount);
 }
